@@ -24,11 +24,13 @@ public class MakeupExpert {
                 brands.add(" W7");
                 brands.add("Lakme");
                 brands.add("Mr & Mrs");
-            } else {
+            } else if (products.equals("Lipstick")){
                 brands.add("Milani");
                 brands.add("Wet n Wild");
                 brands.add("Revlon");
                 brands.add("Absolute Newyork(super slim)");
+            }else{
+                brands.add("No item selected");
             }
             return brands;
         }

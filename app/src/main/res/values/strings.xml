@@ -3,6 +3,7 @@
     <string name="b1_find_makeup">Find Best Brands!</string>
     <string name="t1_brands">No product selected</string>
     <string-array name="s1_products">
+        <item>Select item</item>
         <item>Foundation</item>
         <item>Blush</item>
         <item>Eyeshadow</item>

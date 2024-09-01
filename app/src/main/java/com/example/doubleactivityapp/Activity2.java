@@ -33,11 +33,12 @@ public class Activity2 extends AppCompatActivity {
         product_type.setText(p_type);
 
 
-        List<String> brandsList = expert.getbrands(Product);
+        List<String> brandsList = expert.getbrands(p_type);
         StringBuilder brandsFormatted = new StringBuilder();
         for (String brand : brandsList) {
             brandsFormatted.append(brand).append('\n');
         }
         brands.setText(brandsFormatted);
+        //done
     }
 }
